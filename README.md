@@ -4,37 +4,21 @@
 
 This repository contains binary patch data for reconstructing dataset for quality estimation of GEC.
 
-## Requirements
-
- - [bsdiff/bspatch](http://www.daemonology.net/bsdiff/)
 
 ## Data
-Running the script with the following command will automatically download the [W&I+LOCNESS dataset](https://www.cl.cam.ac.uk/research/nl/bea2019st/) and apply the patch.
+Please pull thse codes on your local space.
 
 ```
 $ git clone https://github.com/tmu-nlp/ProQE.git
-$ cd ProQE
-$ bash ./scripts/setup.sh
 ```
 
-`scripts/setup.sh` generates data for each proficiency level in `data/tsv` directory.
-```
-$ ls ./data/tsv
-a.tsv b.tsv c.tsv n.tsv
-```
 
-The first line of each generated data is a header.
-```
-$ head -n 1 ./data/tsv/a.tsv
-source	output	scores	ave_score
-```
 The header contains the following columns:
- - `source`: source sentence.
- - `output`: GEC system output sentence.
- - `scores`: annotation scores by 3 annotators.
- - `ave_score`: average of `scores`.
+ - `原文`: source sentence.
+ - `訂正`: GEC system output sentence.
+ - `個別評価`: annotation scores by 3 annotators.
+ - `評価`: average of `個別評価`.
 
-Note: The `source` and `output` sentences are detokenized to prevent annotators from evaluating the tokenization as an error. (we used [nltk](https://github.com/nltk/nltk) for detokenization.)
 
 ## Citation
 
