@@ -24,4 +24,4 @@ The header contains the following columns:
 
 If you use our dataset, please cite our LREC paper:
 
- 1. Yujin Takahashi, Masahiro Kaneko, Masato Mita and Mamoru Komachi. Proficiency Matters Quality Estimation in Grammatical Error Correction. 13th Edition of Language Resources and Evaluation Conference (LREC 2022). May, 2022.
+ 1. Daisuke Suzuki, Yujin Takahashi, Ikumi Yamashita, Taichi Aida, Tosho Hirasawa, Michitaka Nakatsuji, Masato Mita, Mamoru Komachi. Construction of a Quality Estimation Dataset for Automatic Evaluation of Japanese Grammatical Error Correction. Proceedings of the 13th Edition of Language Resources and Evaluation Conference (LREC 2022), pp.5565-5572. June, 2022.
